@@ -1,0 +1,126 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    width: 360px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: #ffffff;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+}
+
+/* Calculator styles */
+.calculator {
+    padding: 20px;
+}
+
+/* Display styles */
+.display {
+    margin-bottom: 20px;
+}
+
+.display input {
+    width: 100%;
+    height: 70px;
+    font-size: 36px;
+    text-align: right;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #e9ecef;
+    color: #333;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+/* Button styles */
+.button {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.button input[type =button]{
+    margin-bottom: 15px;
+    color: #57a95a;
+}
+.row input {
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    background-color: #f8f9fa;
+    color: #495057;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.row input:hover {
+    background-color: #e2e6ea;
+}
+
+/* Operator button styles */
+.operator {
+    background-color: #ffb74d;
+    color: white;
+}
+
+.operator:hover {
+    background-color: #ffa726;
+}
+
+.operator:active {
+    transform: scale(0.95);
+}
+
+/* Equal button styles */
+
+
+
+
+/* Fixing the last row */
+.row:last-child {
+    grid-column: span 4; /* Ensure the last row occupies full width */
+    display: grid;
+    grid-template-columns: repeat(2, 0.9fr) 2fr; 
+    gap: 15px;
+}
+
+.button .row:last-child .operator:active {
+    transform: scale(0.95);
+}
+    
+
+/* Media Queries for responsiveness */
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+    }
+
+    .display input {
+        font-size: 28px;
+        height: 60px;
+    }
+
+    .row input {
+        font-size: 20px;
+        height: 50px;
+    }
+}
