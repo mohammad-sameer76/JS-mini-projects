@@ -7,7 +7,8 @@ This project performs basic arithmetic operations such as addition, subtraction,
 
 ## 📸 Screenshot
 
-![Screenshot](Screenshot%202025-09-02%20222817.png)
+![Screenshot](Screenshot/Screenshot%202025-09-02%20222817.png)
+
 
 ---
 
