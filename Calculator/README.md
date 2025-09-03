@@ -7,7 +7,7 @@ This project performs basic arithmetic operations such as addition, subtraction,
 
 ## 📸 Screenshot
 
-![Screenshot](Screenshot/Screenshot%202025-09-02%20222817.png)
+![Calculator Screenshot](Screenshots/Screenshot%202025-09-02%20222817.png)
 
 
 ---
@@ -42,10 +42,12 @@ This project performs basic arithmetic operations such as addition, subtraction,
 
 ```
 📦 Calculator
-├── index.html      # Main HTML structure
-├── style.css       # Styling for calculator UI
-├── script.js       # Calculator functionality
-└── Screenshot.png  # Project screenshot
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── Screenshots
+    └── Screenshot 2025-09-02 222817.png
 ```
 
 ---
