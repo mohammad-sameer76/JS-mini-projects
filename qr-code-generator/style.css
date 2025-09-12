@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* body bg = #262a2f */
+/* container bg = #fff */
+/* input border #494eea  also button bg
+imgBox  border #d1d1d1*/
+
+body {
+  background-color: #262a2f;
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 5px;
+  padding: 25px 20px;
+}
+p {
+  /* font-size: 24px; */
+  font-weight: 500;
+}
+
+.container input {
+  width: 100%;
+  outline: 0;
+  height: 40px;
+  margin: 10px 0 20px;
+  border: 1px solid #494eea;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+.container button {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  background: #494eea;
+  color: #fff;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+  margin-bottom: 7px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+#imageBox {
+  width: 200px;
+  max-height: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: max-height 1s;
+}
+#imageBox img {
+  width: 100%;
+  padding: 10px;
+  
+}
+
+#imageBox.checked{
+    max-height: 300px;
+    margin: 10px auto;
+    border: 1px solid #d1d1d1;
+}
+
+.error.active{
+  animation: shake 0.1s linear 10;
+  text-align: left;
+  margin-left: 19px;
+  color: red  ;
+}
+
+
+@keyframes shake {
+  0%{
+    transform: translateX(0px);
+  }
+  25%{
+    transform: translateX(-2px);
+  }
+  50%{
+    transform: translateX(0px);
+  }
+  75%{
+    transform: translateX(2px);
+
+  }
+  100%{
+    transform: translateX(0px);
+  }
+   
+}
