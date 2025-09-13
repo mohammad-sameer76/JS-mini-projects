@@ -47,7 +47,7 @@ Copy code
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/your-username/accordion.git
+   git clone https://github.com/mohammad-sameer76/accordion.git
 2.Open the index.html file in your browser.
 
 🎯 Future Improvements
