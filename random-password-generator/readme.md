@@ -30,7 +30,7 @@ This project generates strong random passwords using uppercase letters, lowercas
 ---
 
 ## 📂 Project Structure
-
+<pre>
 random-password-generator/
 ├── index.html # Main HTML file
 ├── style.css # Styling
@@ -40,14 +40,14 @@ random-password-generator/
 │ └── generate.png
 └── screenshot/
 └── app-screenshot.png # Project screenshot
-
+</pre>
 ---
 
 ## ⚡ How to Run
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/your-username/random-password-generator.git
+   git clone https://github.com/mohammad-sameer76/random-password-generator.git
 Open index.html in your browser.
 
 🎯 Future Improvements
