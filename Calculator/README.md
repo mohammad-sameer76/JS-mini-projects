@@ -56,7 +56,7 @@ This project performs basic arithmetic operations such as addition, subtraction,
 
 1. Clone or download the repository.  
    ```bash
-   git clone https://github.com/your-username/calculator.git
+   git clone https://github.com/mohammad-sameer76/calculator.git
    ```
 
 2. Open the `index.html` file in your web browser.  

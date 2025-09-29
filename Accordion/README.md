@@ -30,16 +30,15 @@ This project demonstrates how to build collapsible Q&A sections where only one a
 ---
 
 ## 📂 Project Structure
-
+<pre>
 accordion/
 ├── Screenshot/
 │ └── Accordion.png # Project screenshot
 ├── index.html # Main HTML file
 ├── style.css # Styling for the accordion
 └── script.js # Accordion functionality
+</pre>
 
-yaml
-Copy code
 
 ---
 
@@ -47,7 +46,7 @@ Copy code
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/your-username/accordion.git
+   git clone https://github.com/mohammad-sameer76/accordion.git
 2.Open the index.html file in your browser.
 
 🎯 Future Improvements
