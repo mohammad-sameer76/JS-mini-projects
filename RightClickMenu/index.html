@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Right Click context Menu</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center; color: aliceblue; margin-top: 40px;">Right Click to see the magic</h1>
+    <div class="wrapper">
+      
+      <div class="container">
+        
+        <ul class="menu">
+          <li class="item">
+            <i class="fa-solid fa-eye"></i>
+            <span>Preview</span>
+          </li>
+          <li class="item share">
+            <div class="div">
+              <i class="fa-solid fa-share"></i>
+              <span>Share</span>
+            </div>
+
+            <i id="angle" class="fa-solid fa-angle-right"></i>
+
+            <ul class="share-menu">
+              <li class="item">
+                <i class="fa-brands fa-twitter"></i>
+                <span>Twitter</span>
+              </li>
+
+              <li class="item">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+              </li>
+
+              <li class="item">
+                <i class="fa-solid fa-basketball"></i>
+                <span>Dribble</span>
+              </li>
+
+              <li class="item">
+                <i class="fa-brands fa-telegram"></i>
+                <span>Telegram</span>
+              </li>
+            </ul>
+          </li>
+          <li class="item">
+            <i class="fa-solid fa-link"></i>
+            <span>Get Link</span>
+          </li>
+          <li class="item">
+            <i class="fa-solid fa-pen-to-square"></i>
+            <span>Rename</span>
+          </li>
+
+          <li class="item">
+            <i class="fa-solid fa-trash-can"></i>
+            <span>Delete</span>
+          </li>
+        </ul>
+
+        <div class="settings">
+          <li class="item">
+            <i class="fa-solid fa-gear"></i>
+            <span>Settings</span>
+          </li>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- script -->
+     <script src="./script.js"></script>
+  </body>
+</html>
