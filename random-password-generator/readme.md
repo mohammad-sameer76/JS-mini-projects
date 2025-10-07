@@ -45,9 +45,14 @@ random-password-generator/
 
 ## ⚡ How to Run
 
-1. Clone or download this repository:
+1. Clone this repository:
    ```bash
-   git clone https://github.com/mohammad-sameer76/random-password-generator.git
+   git clone https://github.com/mohammad-sameer76/JS-mini-projects.git
+Navigate to the project folder:
+
+bash
+
+cd JS-mini-projects/random-password-generator
 Open index.html in your browser.
 
 🎯 Future Improvements

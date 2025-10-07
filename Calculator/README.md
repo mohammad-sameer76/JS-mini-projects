@@ -54,14 +54,16 @@ This project performs basic arithmetic operations such as addition, subtraction,
 
 ## ⚡ How to Run
 
-1. Clone or download the repository.  
+
+1. Clone this repository:
    ```bash
-   git clone https://github.com/mohammad-sameer76/calculator.git
-   ```
+   git clone https://github.com/mohammad-sameer76/JS-mini-projects.git
+Navigate to the project folder:
 
-2. Open the `index.html` file in your web browser.  
+bash
 
----
+2. cd JS-mini-projects/Calculator
+Open index.html in your browser.
 
 ## 🎯 Future Improvements
 

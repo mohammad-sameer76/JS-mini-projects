@@ -44,10 +44,16 @@ accordion/
 
 ## ⚡ How to Run
 
-1. Clone or download this repository:
+
+1. Clone this repository:
    ```bash
-   git clone https://github.com/mohammad-sameer76/accordion.git
-2.Open the index.html file in your browser.
+   git clone https://github.com/mohammad-sameer76/JS-mini-projects.git
+Navigate to the project folder:
+
+bash
+
+2. cd JS-mini-projects/Accordion
+Open index.html in your browser.
 
 🎯 Future Improvements
 Add support for multiple accordions open at the same time.

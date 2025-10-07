@@ -48,10 +48,16 @@ to-do-list/
 
 ## ⚡ How to Run
 
-1. Clone or download this repository:
+
+1. Clone this repository:
    ```bash
-   git clone https://github.com/mohammad-sameer76/todo-list.git
-Open the index.html file in your browser.
+   git clone https://github.com/mohammad-sameer76/JS-mini-projects.git
+Navigate to the project folder:
+
+bash
+
+cd JS-mini-projects/To-Do-List
+Open index.html in your browser.
 
 🎯 Future Improvements
 Add edit functionality for tasks.
