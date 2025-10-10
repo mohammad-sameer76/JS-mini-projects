@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #e5e4e2;
+}
+.outer-container {
+  margin: 100px auto;
+  text-align: center;
+  max-width: 350px;
+}
+.outer-container h1 {
+  font-weight: 500;
+  position: relative;
+}
+.outer-container h1::after {
+  position: absolute;
+  text-align: center;
+  content: "";
+  left: 36%;
+  bottom: -5px;
+  width: 60px;
+  height: 4px;
+  background-color: rgb(32, 161, 200);
+}
+.container {
+  margin-top: 60px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+}
+img {
+  object-fit: cover;
+  object-position: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  outline: 3px solid skyblue;
+}
+
+h4 {
+  font-weight: 600;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+h6 {
+  margin-bottom: 10px;
+  color: skyblue;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+p {
+  color: #444;
+  font-size: 12px;
+}
+
+button {
+  color: skyblue;
+}
+
+.btn-container button {
+  border: 0;
+  outline: 0;
+  background-color: #fff;
+  font-size: 30px;
+  padding: 0 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button.surprise-btn {
+  padding: 3px 5px;
+  font-size: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  border-color: rgb(39, 134, 230);
+  color: rgb(39, 134, 230);
+}
+
+.surprise-btn:hover {
+  color: #fff;
+  background-color: rgb(39, 134, 230);
+  transition: all 0.1s;
+}
+
+
+.btn-container button:hover {
+  color: #fff;
+  border-radius: 5px;
+  background-color: rgb(39, 134, 230);
+  transition: all 0.1s;
+}
